@@ -46,7 +46,7 @@ class RecentOrders extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(
-                          height: 4.0,
+                          height: 3.0,
                         ),
                         Text(
                           order.restaurant.name,
@@ -57,7 +57,7 @@ class RecentOrders extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                         ),
                         SizedBox(
-                          height: 4.0,
+                          height: 3.0,
                         ),
                         Text(
                           order.date,
